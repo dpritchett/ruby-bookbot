@@ -13,3 +13,7 @@ gem "lita"
 # gem "lita-google-images"
 # gem "lita-karma"
 gem "lita-doubler", path: 'vendor/lita-doubler'
+
+group :development, :test do
+  gem "rspec"
+end
