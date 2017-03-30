@@ -12,7 +12,8 @@ gem "lita"
 # For example:
 # gem "lita-google-images"
 # gem "lita-karma"
-gem "lita-doubler", path: 'vendor/lita-doubler'
+gem "lita-doubler", path: 'gems/lita-doubler'
+gem "lita-whats-brad-eating", path: 'gems/lita-whats-brad-eating'
 
 group :development, :test do
   gem "rspec"
