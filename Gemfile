@@ -13,8 +13,8 @@ gem "lita"
 # gem "lita-google-images"
 # gem "lita-karma"
 
-gem "lita-doubler", github: 'dpritchett/lita-doubler'
-gem "lita-whats-brad-eating", github: 'dpritchett/lita-whats-brad-eating'
+gem "lita-doubler"
+gem "lita-whats-brad-eating"
 
 group :development, :test do
   gem "rspec"
