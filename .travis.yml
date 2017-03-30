@@ -3,10 +3,5 @@ rvm:
   - 2.2.6
   - 2.3.3
 
-install:
-  - bundle install
-
 services:
   - redis-server
-
-script: make build
