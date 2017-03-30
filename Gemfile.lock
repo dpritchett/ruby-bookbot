@@ -1,16 +1,17 @@
 GIT
+  remote: git://github.com/dpritchett/lita-doubler.git
+  revision: 5ca699b2241b5b1700ffe6218d15fe36b86c9ca1
+  specs:
+    lita-doubler (0.1.0)
+      lita (>= 4.7)
+
+GIT
   remote: git://github.com/dpritchett/lita-whats-brad-eating.git
   revision: 98c69934b9082b89277ac2490e6c4d4f143cdb73
   specs:
     lita-whats-brad-eating (0.1.0)
       lita (>= 4.7)
       nokogiri
-
-PATH
-  remote: gems/lita-doubler
-  specs:
-    lita-doubler (0.1.0)
-      lita (>= 4.7)
 
 GEM
   remote: https://rubygems.org/
