@@ -34,7 +34,7 @@ Lita.configure do |config|
   # config.redis.host = "127.0.0.1"
   # config.redis.port = 1234
 
-  config.http.port = ENV.fetch('LITA_HTTP_PORT', '8080')
+  config.http.port = ENV.fetch('PORT', '8080')
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
