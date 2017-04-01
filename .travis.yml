@@ -4,6 +4,3 @@ rvm:
 
 services:
   - redis-server
-
-script:
-  - timeout 10s bundle exec lita start
