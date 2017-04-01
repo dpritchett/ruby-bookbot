@@ -24,4 +24,5 @@ gem "lita-whats-brad-eating"
 
 group :development, :test do
   gem "rspec"
+  gem "rake"
 end
