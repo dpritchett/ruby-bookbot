@@ -9,7 +9,10 @@ gem "lita"
 
 # Uncomment to use the IRC adapter
 # gem "lita-irc"
-gem 'lita-slack'
+
+group :production do
+  gem 'lita-slack'
+end
 
 # Add handlers to give Lita new functionality.
 # For example:
