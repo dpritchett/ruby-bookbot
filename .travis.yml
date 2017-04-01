@@ -1,10 +1,9 @@
 language: ruby
 rvm:
-  - 2.2.6
   - 2.3.3
 
 services:
   - redis-server
 
 script:
-  - timeout 5s lita start
+  - timeout 10s bundle exec lita start
