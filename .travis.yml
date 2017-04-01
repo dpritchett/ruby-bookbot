@@ -5,3 +5,6 @@ rvm:
 
 services:
   - redis-server
+
+script:
+  - timeout 5s lita start
