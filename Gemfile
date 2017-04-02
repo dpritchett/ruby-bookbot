@@ -1,6 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "lita"
+gem 'lita'
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
@@ -13,9 +13,9 @@ gem "lita"
 # gem "lita-google-images"
 # gem "lita-karma"
 
-gem "lita-doubler"
-gem "lita-whats-brad-eating"
+gem 'lita-doubler'
+gem 'lita-whats-brad-eating'
 
 group :development, :test do
-  gem "rspec"
+  gem 'rspec'
 end
