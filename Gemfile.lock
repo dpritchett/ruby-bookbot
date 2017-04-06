@@ -2,12 +2,18 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
+    erubis (2.7.0)
     eventmachine (1.2.3)
+    excon (0.55.0)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.7)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
+    heroics (0.0.21)
+      erubis (~> 2.0)
+      excon
+      multi_json (>= 1.9.2)
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -27,20 +33,27 @@ GEM
       thor (>= 0.18.1)
     lita-doubler (0.1.0)
       lita (>= 4.7)
+    lita-restart-elvis (0.1.0)
+      lita (>= 4.7)
+      platform-api
     lita-slack (1.8.0)
       eventmachine
       faraday
       faye-websocket (>= 0.8.0)
       lita (>= 4.7.1)
       multi_json
-    lita-whats-brad-eating (0.1.0)
+    lita-whats-brad-eating (1.0.0)
       lita (>= 4.7)
       nokogiri
     mini_portile2 (2.1.0)
+    moneta (0.8.1)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
+    platform-api (1.0.1)
+      heroics (~> 0.0.21)
+      moneta (~> 0.8.1)
     puma (3.8.2)
     rack (1.6.5)
     rake (11.3.0)
@@ -74,6 +87,7 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-doubler
+  lita-restart-elvis
   lita-slack
   lita-whats-brad-eating
   rake

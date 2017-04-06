@@ -13,6 +13,7 @@ gem 'lita-slack'
 
 gem 'lita-doubler'
 gem 'lita-whats-brad-eating'
+gem 'lita-restart-elvis'
 
 group :development, :test do
   gem 'rspec'
