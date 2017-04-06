@@ -5,7 +5,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.2.3)
     excon (0.55.0)
-    faraday (0.11.0)
+    faraday (0.12.0.1)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.7)
       eventmachine (>= 0.12.0)
@@ -33,7 +33,7 @@ GEM
       thor (>= 0.18.1)
     lita-doubler (0.1.0)
       lita (>= 4.7)
-    lita-restart-elvis (0.1.0)
+    lita-restart-elvis (0.2.0)
       lita (>= 4.7)
       platform-api
     lita-slack (1.8.0)
