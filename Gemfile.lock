@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    coderay (1.1.1)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     eventmachine (1.2.3)
@@ -33,6 +34,8 @@ GEM
       thor (>= 0.18.1)
     lita-doubler (0.1.0)
       lita (>= 4.7)
+    lita-imgflip-memes (0.1.0)
+      lita (>= 4.7)
     lita-restart-elvis (0.2.0)
       lita (>= 4.7)
       platform-api
@@ -45,6 +48,7 @@ GEM
     lita-whats-brad-eating (1.0.0)
       lita (>= 4.7)
       nokogiri
+    method_source (0.8.2)
     mini_portile2 (2.1.0)
     moneta (0.8.1)
     multi_json (1.12.1)
@@ -54,6 +58,13 @@ GEM
     platform-api (1.0.1)
       heroics (~> 0.0.21)
       moneta (~> 0.8.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-doc (0.10.0)
+      pry (~> 0.9)
+      yard (~> 0.9)
     puma (3.8.2)
     rack (1.6.5)
     rake (11.3.0)
@@ -74,12 +85,14 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
+    slop (3.6.0)
     thor (0.19.4)
     url_mount (0.2.1)
       rack
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    yard (0.9.9)
 
 PLATFORMS
   ruby
@@ -87,9 +100,12 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-doubler
+  lita-imgflip-memes
   lita-restart-elvis
   lita-slack
   lita-whats-brad-eating
+  pry
+  pry-doc
   rake
   rspec
 
