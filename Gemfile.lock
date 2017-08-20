@@ -34,6 +34,8 @@ GEM
       thor (>= 0.18.1)
     lita-alexa-news-publisher (0.1.0)
       lita (>= 4.7)
+    lita-alexa-news-recorder (0.1.0)
+      lita (>= 4.7)
     lita-doubler (0.1.0)
       lita (>= 4.7)
     lita-imgflip-memes (1.1.1)
@@ -102,6 +104,7 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-alexa-news-publisher
+  lita-alexa-news-recorder
   lita-doubler
   lita-imgflip-memes
   lita-restart-elvis

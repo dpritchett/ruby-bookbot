@@ -19,6 +19,7 @@ gem 'lita-whats-brad-eating'
 gem 'lita-restart-elvis'
 gem 'lita-imgflip-memes' #, path: '../lita_plugins/lita-imgflip-memes'
 gem 'lita-alexa-news-publisher' #, path: '../lita_plugins/lita-alexa-news-publisher'
+gem 'lita-alexa-news-recorder' #, path: '../lita_plugins/lita-alexa-news-recorder'
 
 group :development, :test do
   gem 'rspec'
