@@ -34,7 +34,7 @@ GEM
       thor (>= 0.18.1)
     lita-alexa-news-publisher (0.1.2)
       lita (>= 4.7)
-    lita-alexa-news-recorder (0.1.4)
+    lita-alexa-news-recorder (0.1.5)
       lita (>= 4.7)
       lita-alexa-news-publisher (>= 0.1.1)
     lita-doubler (0.1.0)
