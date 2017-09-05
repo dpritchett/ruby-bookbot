@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/dpritchett/lita-alexa-news-recorder.git
+  revision: 529725153d10bf97ba8d94db0453033c7afbfabb
+  specs:
+    lita-alexa-news-recorder (0.1.8)
+      lita (>= 4.7)
+      lita-alexa-news-publisher (>= 0.1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -34,9 +42,6 @@ GEM
       thor (>= 0.18.1)
     lita-alexa-news-publisher (0.1.7)
       lita (>= 4.7)
-    lita-alexa-news-recorder (0.1.8)
-      lita (>= 4.7)
-      lita-alexa-news-publisher (>= 0.1.1)
     lita-doubler (0.1.0)
       lita (>= 4.7)
     lita-imgflip-memes (1.1.1)
@@ -105,7 +110,7 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-alexa-news-publisher
-  lita-alexa-news-recorder
+  lita-alexa-news-recorder!
   lita-doubler
   lita-imgflip-memes
   lita-restart-elvis
