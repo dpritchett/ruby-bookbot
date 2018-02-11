@@ -38,10 +38,12 @@ Lita.configure do |config|
 
   config.http.port = ENV.fetch('PORT', '8080')
 
+  # START:meme_config
   Lita::Handlers::ImgflipMemes.add_meme(
     template_id: 61546,
     pattern: /(brace yoursel[^\s]+) (.*)/i,
     help: 'brace yourselves, <text>')
+  # END:meme_config
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
