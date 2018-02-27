@@ -5,6 +5,7 @@ ruby '~> 2.3.1'
 gem 'lita'
 
 gem 'pry'
+gem 'pry-byebug'
 gem 'pry-doc'
 
 gem 'lita-slack'
@@ -20,6 +21,10 @@ gem 'lita-restart-elvis'
 gem 'lita-imgflip-memes' #, path: '../lita_plugins/lita-imgflip-memes'
 gem 'lita-alexa-news-publisher' #, path: '../lita_plugins/lita-alexa-news-publisher'
 gem 'lita-alexa-news-recorder', git: 'https://github.com/dpritchett/lita-alexa-news-recorder.git' #, path: '../lita_plugins/lita-alexa-news-recorder'
+
+#gem 'lita-pastebin_shrinker', path: '../lita-pastebin_shrinker'
+gem 'lita-markov-blabber'
+
 
 group :development, :test do
   gem 'rspec'
