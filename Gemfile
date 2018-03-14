@@ -22,9 +22,11 @@ gem 'lita-imgflip-memes' #, path: '../lita_plugins/lita-imgflip-memes'
 gem 'lita-alexa-news-publisher' #, path: '../lita_plugins/lita-alexa-news-publisher'
 gem 'lita-alexa-news-recorder', git: 'https://github.com/dpritchett/lita-alexa-news-recorder.git' #, path: '../lita_plugins/lita-alexa-news-recorder'
 
+gem 'lita-task-scheduler', path: '../lita-task-scheduler'
+
 #gem 'lita-pastebin_shrinker', path: '../lita-pastebin_shrinker'
-gem 'lita-markov-blabber'
-gem 'lita-cleverbot-demo'
+#gem 'lita-markov-blabber'
+#gem 'lita-cleverbot-demo'
 
 
 group :development, :test do
