@@ -6,23 +6,14 @@ GIT
       lita (>= 4.7)
       lita-alexa-news-publisher (>= 0.1.1)
 
-PATH
-  remote: ../lita-task-scheduler
-  specs:
-    lita-task-scheduler (0.1.0)
-      lita (>= 4.7)
-      rufus-scheduler
-
 GEM
   remote: https://rubygems.org/
   specs:
-    byebug (10.0.0)
-    coderay (1.1.1)
+    byebug (10.0.2)
+    coderay (1.1.2)
     concurrent-ruby (1.0.5)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    et-orbi (1.0.9)
-      tzinfo
     eventmachine (1.2.3)
     excon (0.55.0)
     faraday (0.13.1)
@@ -67,23 +58,22 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.7.1)
       multi_json
-    lita-whats-brad-eating (1.0.0)
+    lita-whats-brad-eating (1.0.1)
       lita (>= 4.7)
       nokogiri
-    method_source (0.8.2)
-    mini_portile2 (2.1.0)
+    method_source (0.9.0)
+    mini_portile2 (2.3.0)
     moneta (0.8.1)
     multi_json (1.12.2)
     multipart-post (2.0.0)
-    nokogiri (1.7.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     platform-api (1.0.1)
       heroics (~> 0.0.21)
       moneta (~> 0.8.1)
-    pry (0.10.4)
+    pry (0.11.3)
       coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
+      method_source (~> 0.9.0)
     pry-byebug (3.6.0)
       byebug (~> 10.0)
       pry (~> 0.10)
@@ -92,7 +82,7 @@ GEM
       yard (~> 0.9)
     puma (3.11.2)
     rack (1.6.8)
-    rake (11.3.0)
+    rake (12.3.1)
     rb-readline (0.5.5)
     redis (4.0.1)
     redis-namespace (1.6.0)
@@ -110,13 +100,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
-    rufus-scheduler (3.4.2)
-      et-orbi (~> 1.0)
-    slop (3.6.0)
     thor (0.20.0)
-    thread_safe (0.3.6)
-    tzinfo (1.2.5)
-      thread_safe (~> 0.1)
     url_mount (0.2.1)
       rack
     websocket-driver (0.6.5)
@@ -135,8 +119,7 @@ DEPENDENCIES
   lita-imgflip-memes
   lita-restart-elvis
   lita-slack
-  lita-task-scheduler!
-  lita-whats-brad-eating
+  lita-whats-brad-eating (~> 1.0.1)
   pry
   pry-byebug
   pry-doc
@@ -147,4 +130,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
