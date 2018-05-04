@@ -15,9 +15,9 @@ services:
       - LOG_LEVEL=debug
       - LITA_HTTP_PORT=80
       - REDIS_URL=redis://redis-lita:6379
-      - SLACK_TOKEN=xoxb-212869157184-qU51ZUEVGBVIl7ajJCSK1e7A
-      - IMGFLIP_API_PASSWORD=memtech_elvis
-      - IMGFLIP_API_USER=memtech_elvis
+      - SLACK_TOKEN=redacted
+      - IMGFLIP_API_PASSWORD=redacted
+      - IMGFLIP_API_USER=redacted
     depends_on:
       - redis-lita # define the required relationship
     tty: true
