@@ -22,7 +22,7 @@ gem 'lita-imgflip-memes'
 gem 'lita-alexa-news-publisher'
 gem 'lita-alexa-news-recorder', git: 'https://github.com/dpritchett/lita-alexa-news-recorder.git'
 
-gem 'lita-task-scheduler'
+gem 'lita-task-scheduler', '~> 1.1.0'
 
 #gem 'lita-pastebin_shrinker', path: '../lita-pastebin_shrinker'
 #gem 'lita-markov-blabber'

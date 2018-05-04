@@ -6,13 +6,6 @@ GIT
       lita (>= 4.7)
       lita-alexa-news-publisher (>= 0.1.1)
 
-PATH
-  remote: ../lita-task-scheduler
-  specs:
-    lita-task-scheduler (1.0.0)
-      lita (>= 4.7)
-      rufus-scheduler
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -21,11 +14,11 @@ GEM
     concurrent-ruby (1.0.5)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    et-orbi (1.0.9)
+    et-orbi (1.1.1)
       tzinfo
     eventmachine (1.2.3)
     excon (0.55.0)
-    faraday (0.13.1)
+    faraday (0.15.0)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.7)
       eventmachine (>= 0.12.0)
@@ -37,7 +30,7 @@ GEM
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
-    i18n (1.0.0)
+    i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
     lita (4.7.1)
@@ -67,13 +60,16 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.7.1)
       multi_json
+    lita-task-scheduler (1.1.0)
+      lita (>= 4.7)
+      rufus-scheduler
     lita-whats-brad-eating (1.0.1)
       lita (>= 4.7)
       nokogiri
     method_source (0.9.0)
     mini_portile2 (2.3.0)
     moneta (0.8.1)
-    multi_json (1.12.2)
+    multi_json (1.13.1)
     multipart-post (2.0.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
@@ -89,8 +85,8 @@ GEM
     pry-doc (0.10.0)
       pry (~> 0.9)
       yard (~> 0.9)
-    puma (3.11.2)
-    rack (1.6.8)
+    puma (3.11.4)
+    rack (1.6.10)
     rake (12.3.1)
     rb-readline (0.5.5)
     redis (4.0.1)
@@ -133,7 +129,7 @@ DEPENDENCIES
   lita-imgflip-memes
   lita-restart-elvis
   lita-slack
-  lita-task-scheduler!
+  lita-task-scheduler (~> 1.1.0)
   lita-whats-brad-eating (~> 1.0.1)
   pry
   pry-byebug
