@@ -44,6 +44,8 @@ Lita.configure do |config|
     pattern: /(brace yoursel[^\s]+) (.*)/i,
     help: 'brace yourselves, <text>')
   # END:meme_config
+  #
+  config.handlers.travis_announcer.travis_room = '#general'
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.

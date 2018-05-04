@@ -63,6 +63,8 @@ GEM
     lita-task-scheduler (1.1.0)
       lita (>= 4.7)
       rufus-scheduler
+    lita-travis-announcer (1.1.0)
+      lita (>= 4.7)
     lita-whats-brad-eating (1.0.1)
       lita (>= 4.7)
       nokogiri
@@ -130,6 +132,7 @@ DEPENDENCIES
   lita-restart-elvis
   lita-slack
   lita-task-scheduler (~> 1.1.0)
+  lita-travis-announcer
   lita-whats-brad-eating (~> 1.0.1)
   pry
   pry-byebug
