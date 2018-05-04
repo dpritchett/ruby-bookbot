@@ -6,7 +6,7 @@ push:
 	docker push cfcontainersdp.azurecr.io/bookbot/lita:${TAG_SHA}
 
 deploy:
-	kubectl apply -f ./build/lita-k8s.yaml
+	kubectl apply -f ./build/lita-deployment.yaml
 
 docker_login:
 	az acr login --name cfcontainersdp
