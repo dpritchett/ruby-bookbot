@@ -24,6 +24,8 @@ gem 'lita-alexa-news-recorder', git: 'https://github.com/dpritchett/lita-alexa-n
 
 gem 'lita-task-scheduler', '~> 1.1.0'
 
+gem 'lita-travis-announcer'
+
 #gem 'lita-pastebin_shrinker', path: '../lita-pastebin_shrinker'
 #gem 'lita-markov-blabber'
 #gem 'lita-cleverbot-demo'
