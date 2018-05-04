@@ -6,7 +6,6 @@ RUN gem install bundler && gem install rake && mkdir /app
 
 WORKDIR /app
 
-# precache the slowest native gem installs
 # precache vendorable bundle assets to speed up rebuilds
 COPY build/Gemfile* /app/
 RUN bundle install
