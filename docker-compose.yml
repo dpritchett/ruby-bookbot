@@ -1,13 +1,12 @@
 version: '3'
 services:
   lita: 
-  #build: . # use the local Dockerfile
-    image: cfcontainersdp.azurecr.io/bookbot/lita:525af5
+    build: . # use the local Dockerfile
     command: bash -c 'bundle exec lita'
     ports:
       - "3000:3000" # expose port 3000 as port 3000
-        #volumes:
-        #- .:/app # mount the current directory to /app
+    volumes:
+      - .:/app # mount the current directory to /app
     environment:
       - RACK_ENV=production # Run the app in the 'development' environment:
       - PORT=3000

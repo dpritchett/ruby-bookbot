@@ -18,7 +18,7 @@ gem 'lita-slack'
 gem 'lita-doubler'
 gem 'lita-whats-brad-eating', '~> 1.0.1'
 gem 'lita-restart-elvis'
-gem 'lita-imgflip-memes'
+gem 'lita-imgflip-memes', '~> 1.1.2'
 gem 'lita-alexa-news-publisher'
 gem 'lita-alexa-news-recorder', git: 'https://github.com/dpritchett/lita-alexa-news-recorder.git'
 
