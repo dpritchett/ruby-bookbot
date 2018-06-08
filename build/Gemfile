@@ -1,12 +1,11 @@
 source 'https://rubygems.org'
 
-ruby '~> 2.3.1'
+#ruby '~> 2.3.1'
 
 gem 'lita'
 
 gem 'pry'
 gem 'pry-byebug'
-gem 'pry-doc'
 
 gem 'lita-slack'
 
@@ -16,13 +15,15 @@ gem 'lita-slack'
 # gem "lita-karma"
 
 gem 'lita-doubler'
-gem 'lita-whats-brad-eating'
+gem 'lita-whats-brad-eating', '~> 1.0.1'
 gem 'lita-restart-elvis'
-gem 'lita-imgflip-memes' #, path: '../lita_plugins/lita-imgflip-memes'
-gem 'lita-alexa-news-publisher' #, path: '../lita_plugins/lita-alexa-news-publisher'
-gem 'lita-alexa-news-recorder', git: 'https://github.com/dpritchett/lita-alexa-news-recorder.git' #, path: '../lita_plugins/lita-alexa-news-recorder'
+gem 'lita-imgflip-memes', '~> 1.1.2'
+gem 'lita-alexa-news-publisher'
+gem 'lita-alexa-news-recorder', git: 'https://github.com/dpritchett/lita-alexa-news-recorder.git'
 
-#gem 'lita-task-scheduler', path: '../lita-task-scheduler'
+gem 'lita-task-scheduler', '~> 1.1.0'
+
+gem 'lita-travis-announcer'
 
 #gem 'lita-pastebin_shrinker', path: '../lita-pastebin_shrinker'
 #gem 'lita-markov-blabber'
